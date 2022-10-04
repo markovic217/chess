@@ -1,0 +1,12 @@
+@import "../ChessTableComponent/ChessTableComponent.module.scss";
+
+
+.ChessSquareComponent {
+    width:$width*1/8;
+    height:$height*1/8;
+}
+.Image{
+    width:$width*1/9;
+    height: $height*1/9;
+    user-select: none;
+}
